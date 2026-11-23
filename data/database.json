@@ -1,0 +1,968 @@
+{
+  "Users": [
+    {
+      "Id": "usr-coord",
+      "Name": "Mg. Carlos Mendoza",
+      "Email": "carlos.mendoza@edu.lat",
+      "Role": "coordinador",
+      "RoleDisplayName": "Coordinador de Virtualizaci\u00F3n",
+      "Department": "Direcci\u00F3n de Educaci\u00F3n Virtual",
+      "AvatarColor": "#4F46E5",
+      "Initials": "CM"
+    },
+    {
+      "Id": "usr-doc1",
+      "Name": "Dra. Elena Ramos",
+      "Email": "elena.ramos@edu.lat",
+      "Role": "docente",
+      "RoleDisplayName": "Docente Experto (Ingenier\u00EDa)",
+      "Department": "Facultad de Ingenier\u00EDa",
+      "AvatarColor": "#059669",
+      "Initials": "ER"
+    },
+    {
+      "Id": "usr-doc2",
+      "Name": "Dr. Andr\u00E9s G\u00F3mez",
+      "Email": "andres.gomez@edu.lat",
+      "Role": "docente",
+      "RoleDisplayName": "Docente Experto (Salud)",
+      "Department": "Facultad de Ciencias de la Salud",
+      "AvatarColor": "#0D9488",
+      "Initials": "AG"
+    },
+    {
+      "Id": "usr-rev",
+      "Name": "Lic. Claudia Morales",
+      "Email": "claudia.morales@edu.lat",
+      "Role": "revisor_pedagogico",
+      "RoleDisplayName": "Revisora Pedag\u00F3gica",
+      "Department": "Centro de Innovaci\u00F3n Pedag\u00F3gica",
+      "AvatarColor": "#D97706",
+      "Initials": "CM"
+    },
+    {
+      "Id": "usr-di",
+      "Name": "Esp. Javier Ortiz",
+      "Email": "javier.ortiz@edu.lat",
+      "Role": "disenador_instruccional",
+      "RoleDisplayName": "Dise\u00F1ador Instruccional",
+      "Department": "Unidad de Tecnolog\u00EDas Educativas",
+      "AvatarColor": "#2563EB",
+      "Initials": "JO"
+    },
+    {
+      "Id": "usr-mult",
+      "Name": "Mateo Vargas",
+      "Email": "mateo.vargas@edu.lat",
+      "Role": "productor_multimedia",
+      "RoleDisplayName": "Productor Multimedia",
+      "Department": "Laboratorio de Medios Digitales",
+      "AvatarColor": "#7C3AED",
+      "Initials": "MV"
+    },
+    {
+      "Id": "usr-lms",
+      "Name": "Ing. Sof\u00EDa Castro",
+      "Email": "sofia.castro@edu.lat",
+      "Role": "desarrollador_lms",
+      "RoleDisplayName": "Desarrollador de Entornos Virtuales (LMS)",
+      "Department": "Campus Virtual TI",
+      "AvatarColor": "#DB2777",
+      "Initials": "SC"
+    },
+    {
+      "Id": "usr-cal",
+      "Name": "Mg. Patricia Vega",
+      "Email": "patricia.vega@edu.lat",
+      "Role": "auditor_calidad",
+      "RoleDisplayName": "Auditora de Calidad Acad\u00E9mica",
+      "Department": "Acreditaci\u00F3n y Calidad Institucional",
+      "AvatarColor": "#DC2626",
+      "Initials": "PV"
+    }
+  ],
+  "Courses": [
+    {
+      "Id": "crs-101",
+      "Code": "VIRT-ING-301",
+      "Title": "Inteligencia Artificial y Aprendizaje Autom\u00E1tico",
+      "Faculty": "Facultad de Ingenier\u00EDa y Ciencias B\u00E1sicas",
+      "AcademicProgram": "Ingenier\u00EDa de Sistemas",
+      "Period": "2026-I",
+      "Description": "Virtualizaci\u00F3n completa de la asignatura central de computaci\u00F3n inteligente, con laboratorios simulados en Python y contenidos interactivos.",
+      "Modality": "100% Virtual Asincr\u00F3nico",
+      "Credits": 3,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc1",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "En Montaje LMS",
+      "ProgressPercentage": 62.5,
+      "StartDate": "2026-10-09T19:49:56.5887178Z",
+      "TargetCompletionDate": "2026-12-08T19:49:56.5887622Z",
+      "PublishedAt": null,
+      "Tags": [
+        "Ingenier\u00EDa",
+        "IA",
+        "Python",
+        "Prioridad Alta"
+      ]
+    },
+    {
+      "Id": "crs-102",
+      "Code": "VIRT-MED-104",
+      "Title": "Bio\u00E9tica y Deontolog\u00EDa M\u00E9dica",
+      "Faculty": "Facultad de Ciencias M\u00E9dicas y de la Salud",
+      "AcademicProgram": "Medicina Humana",
+      "Period": "2026-I",
+      "Description": "Casos de estudio bio\u00E9ticos, dilemas cl\u00EDnicos virtuales y gu\u00EDas normativas para la pr\u00E1ctica profesional m\u00E9dica.",
+      "Modality": "H\u00EDbrido Virtualizado",
+      "Credits": 2,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc2",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "En Revisi\u00F3n Pedag\u00F3gica",
+      "ProgressPercentage": 25,
+      "StartDate": "2026-10-26T19:49:56.5888089Z",
+      "TargetCompletionDate": "2026-12-23T19:49:56.588809Z",
+      "PublishedAt": null,
+      "Tags": [
+        "Salud",
+        "Bio\u00E9tica",
+        "Casos Cl\u00EDnicos"
+      ]
+    },
+    {
+      "Id": "crs-103",
+      "Code": "VIRT-EAS-205",
+      "Title": "Gesti\u00F3n Financiera para la Toma de Decisiones",
+      "Faculty": "Facultad de Ciencias Empresariales y Econ\u00F3micas",
+      "AcademicProgram": "Administraci\u00F3n de Empresas",
+      "Period": "2026-I",
+      "Description": "An\u00E1lisis de estados financieros, modelado en hojas de c\u00E1lculo y simuladores de inversi\u00F3n empresarial.",
+      "Modality": "100% Virtual",
+      "Credits": 4,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc1",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "En Producci\u00F3n Multimedia",
+      "ProgressPercentage": 58,
+      "StartDate": "2026-10-19T19:49:56.5888096Z",
+      "TargetCompletionDate": "2026-12-13T19:49:56.5888119Z",
+      "PublishedAt": null,
+      "Tags": [
+        "Negocios",
+        "Finanzas",
+        "Excel Avanzado"
+      ]
+    },
+    {
+      "Id": "crs-104",
+      "Code": "VIRT-DIS-102",
+      "Title": "Dise\u00F1o de Interfaces y Experiencia de Usuario (UI/UX)",
+      "Faculty": "Facultad de Artes y Dise\u00F1o Digital",
+      "AcademicProgram": "Dise\u00F1o Interactivo",
+      "Period": "2026-I",
+      "Description": "Metodolog\u00EDa Design Thinking, prototipado interactivo en Figma y pruebas de usabilidad con usuarios reales.",
+      "Modality": "100% Virtual",
+      "Credits": 3,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc1",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "Control de Calidad",
+      "ProgressPercentage": 88,
+      "StartDate": "2026-09-24T19:49:56.5888125Z",
+      "TargetCompletionDate": "2026-11-28T19:49:56.5888126Z",
+      "PublishedAt": null,
+      "Tags": [
+        "Dise\u00F1o",
+        "UI/UX",
+        "Figma",
+        "Fase Final"
+      ]
+    },
+    {
+      "Id": "crs-105",
+      "Code": "VIRT-HUM-101",
+      "Title": "Metodolog\u00EDa de la Investigaci\u00F3n Cient\u00EDfica",
+      "Faculty": "Facultad de Humanidades y Educaci\u00F3n",
+      "AcademicProgram": "Tronco Com\u00FAn Institucional",
+      "Period": "2026-I",
+      "Description": "Competencias investigativas transversales, formulaci\u00F3n de problemas cient\u00EDficos y normas de citaci\u00F3n internacional.",
+      "Modality": "100% Virtual Asincr\u00F3nico",
+      "Credits": 3,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc2",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "Publicado",
+      "ProgressPercentage": 100,
+      "StartDate": "2026-08-25T19:49:56.5888131Z",
+      "TargetCompletionDate": "2026-11-13T19:49:56.5888132Z",
+      "PublishedAt": "2026-11-15T19:49:56.5888132Z",
+      "Tags": [
+        "Transversal",
+        "Investigaci\u00F3n",
+        "Certificado"
+      ]
+    },
+    {
+      "Id": "crs-106",
+      "Code": "VIRT-ING-405",
+      "Title": "Ciberseguridad y Protecci\u00F3n de Datos",
+      "Faculty": "Facultad de Ingenier\u00EDa",
+      "AcademicProgram": "Ingenier\u00EDa de Sistemas",
+      "Period": "2026-I",
+      "Description": "Fundamentos de seguridad perimetral, ethical hacking, criptograf\u00EDa y gesti\u00F3n de riesgos inform\u00E1ticos.",
+      "Modality": "100% Virtual",
+      "Credits": 3,
+      "CoordinatorId": "usr-coord",
+      "TeacherId": "usr-doc1",
+      "InstructionalDesignerId": "usr-di",
+      "PedagogicalReviewerId": "usr-rev",
+      "MultimediaProducerId": "usr-mult",
+      "LmsDeveloperId": "usr-lms",
+      "QualityAuditorId": "usr-cal",
+      "Status": "En Riesgo",
+      "ProgressPercentage": 0,
+      "StartDate": "2026-11-03T19:49:56.5888631Z",
+      "TargetCompletionDate": "2026-12-03T19:49:56.5888631Z",
+      "PublishedAt": null,
+      "Tags": [
+        "Cr\u00EDtico",
+        "Ciberseguridad",
+        "Demorado"
+      ]
+    }
+  ],
+  "Units": [
+    {
+      "Id": "unt-101-1",
+      "CourseId": "crs-101",
+      "UnitNumber": 1,
+      "Title": "Unidad 1: Fundamentos del Machine Learning y Pipelines de Datos",
+      "Description": "Introducci\u00F3n, algoritmos supervisados vs no supervisados, preprocesamiento.",
+      "Status": "En Desarrollo",
+      "ProgressPercentage": 83.3
+    },
+    {
+      "Id": "unt-101-2",
+      "CourseId": "crs-101",
+      "UnitNumber": 2,
+      "Title": "Unidad 2: Redes Neuronales Artificiales y Deep Learning",
+      "Description": "Perceptr\u00F3n multicapa, funciones de activaci\u00F3n, optimizaci\u00F3n por gradiente descendente.",
+      "Status": "Pendiente",
+      "ProgressPercentage": 0
+    },
+    {
+      "Id": "unt-101-3",
+      "CourseId": "crs-101",
+      "UnitNumber": 3,
+      "Title": "Unidad 3: Procesamiento del Lenguaje Natural y Modelos Generativos",
+      "Description": "Transformers, embeddings, LLMs y aplicaciones en el mundo real.",
+      "Status": "Pendiente",
+      "ProgressPercentage": 40
+    },
+    {
+      "Id": "unt-102-1",
+      "CourseId": "crs-102",
+      "UnitNumber": 1,
+      "Title": "Unidad 1: Principialismo y Fundamentos Bio\u00E9ticos",
+      "Description": "Autonom\u00EDa, beneficencia, no maleficencia y justicia distributiva en salud.",
+      "Status": "En Desarrollo",
+      "ProgressPercentage": 25
+    },
+    {
+      "Id": "unt-102-2",
+      "CourseId": "crs-102",
+      "UnitNumber": 2,
+      "Title": "Unidad 2: Dilemas Cl\u00EDnicos en el Principio y Fin de la Vida",
+      "Description": "Consentimiento informado, cuidados paliativos y comit\u00E9s hospitalarios de bio\u00E9tica.",
+      "Status": "Pendiente",
+      "ProgressPercentage": 25
+    },
+    {
+      "Id": "unt-103-1",
+      "CourseId": "crs-103",
+      "UnitNumber": 1,
+      "Title": "Unidad 1: Diagn\u00F3stico Econ\u00F3mico y Razones Financieras",
+      "Description": "Liquidez, solvencia, rentabilidad y an\u00E1lisis Dupont.",
+      "Status": "Aprobada",
+      "ProgressPercentage": 100
+    },
+    {
+      "Id": "unt-103-2",
+      "CourseId": "crs-103",
+      "UnitNumber": 2,
+      "Title": "Unidad 2: Flujo de Caja y Evaluaci\u00F3n de Proyectos de Inversi\u00F3n",
+      "Description": "C\u00E1lculo de VAN, TIR, costo de capital (WACC) y escenarios de riesgo.",
+      "Status": "En Desarrollo",
+      "ProgressPercentage": 50
+    },
+    {
+      "Id": "unt-104-1",
+      "CourseId": "crs-104",
+      "UnitNumber": 1,
+      "Title": "Unidad 1: Investigaci\u00F3n con Usuarios y Arquitectura de Informaci\u00F3n",
+      "Description": "Entrevistas, empathy maps, user personas y card sorting.",
+      "Status": "Aprobada",
+      "ProgressPercentage": 100
+    },
+    {
+      "Id": "unt-104-2",
+      "CourseId": "crs-104",
+      "UnitNumber": 2,
+      "Title": "Unidad 2: Prototipado Interactivo y Pruebas Heur\u00EDsticas",
+      "Description": "Sistemas de dise\u00F1o, wireframing de alta fidelidad y evaluaci\u00F3n Nielsen.",
+      "Status": "En Revisi\u00F3n",
+      "ProgressPercentage": 85
+    }
+  ],
+  "Resources": [
+    {
+      "Id": "res-101-1",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "Title": "S\u00EDlabo y Planeaci\u00F3n Microcurricular de IA",
+      "Description": "Documento oficial con competencias, r\u00FAbricas de evaluaci\u00F3n y cronograma acad\u00E9mico.",
+      "Type": "S\u00EDlabo",
+      "Stage": "Planeaci\u00F3n",
+      "Status": "Certificado Calidad",
+      "CurrentVersion": "v1.1",
+      "AuthorId": "usr-doc1",
+      "AssignedReviewerId": "usr-rev",
+      "LatestFileUrl": "/uploads/silabo_ia_2026.pdf",
+      "LatestExternalLink": "https://campusvirtual.universidad.edu/silabos/VIRT-ING-301.pdf",
+      "CreatedAt": "2026-10-14T19:49:56.5894776Z",
+      "UpdatedAt": "2026-10-19T19:49:56.5895085Z",
+      "SubmissionsCount": 2,
+      "ReviewsCount": 2
+    },
+    {
+      "Id": "res-101-2",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "Title": "Guion T\u00E9cnico y Pedag\u00F3gico: Video Introductorio a Redes Neuronales",
+      "Description": "Guion estructurado a dos columnas (Audio / Video) con met\u00E1foras visuales y c\u00F3digo fuente.",
+      "Type": "Guion de Video",
+      "Stage": "Dise\u00F1o Instruccional",
+      "Status": "Aprobado",
+      "CurrentVersion": "v2.0",
+      "AuthorId": "usr-doc1",
+      "AssignedReviewerId": "usr-di",
+      "LatestFileUrl": "/uploads/guion_video_redes_neuronales_v2.docx",
+      "LatestExternalLink": "https://docs.google.com/document/d/guion-redes-ia",
+      "CreatedAt": "2026-10-22T19:49:56.5895687Z",
+      "UpdatedAt": "2026-10-29T19:49:56.5895688Z",
+      "SubmissionsCount": 2,
+      "ReviewsCount": 2
+    },
+    {
+      "Id": "res-101-3",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "Title": "C\u00E1psula de Video Multimedia: Redes Neuronales en Acci\u00F3n",
+      "Description": "Video educativo animado de 6 minutos en MP4 Full HD con locuci\u00F3n profesional y subt\u00EDtulos.",
+      "Type": "Video Producido",
+      "Stage": "Producci\u00F3n Multimedia",
+      "Status": "Aprobado",
+      "CurrentVersion": "v1.0",
+      "AuthorId": "usr-mult",
+      "AssignedReviewerId": "usr-di",
+      "LatestFileUrl": "/uploads/video_capsula_redes_neuronales.mp4",
+      "LatestExternalLink": "https://vimeo.com/video-produccion-ia",
+      "CreatedAt": "2026-11-01T19:49:56.5895745Z",
+      "UpdatedAt": "2026-11-08T19:49:56.5895746Z",
+      "SubmissionsCount": 1,
+      "ReviewsCount": 1
+    },
+    {
+      "Id": "res-101-4",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-2",
+      "Title": "Infograf\u00EDa Interactiva: Arquitectura de Transformers y Atenci\u00F3n",
+      "Description": "Recurso interactivo con capas navegables de la arquitectura Self-Attention.",
+      "Type": "Infograf\u00EDa",
+      "Stage": "Producci\u00F3n Multimedia",
+      "Status": "En Revisi\u00F3n",
+      "CurrentVersion": "v1.1",
+      "AuthorId": "usr-mult",
+      "AssignedReviewerId": "usr-rev",
+      "LatestFileUrl": "/uploads/infografia_transformers.zip",
+      "LatestExternalLink": "https://genially.com/infografia-transformers",
+      "CreatedAt": "2026-11-09T19:49:56.5895749Z",
+      "UpdatedAt": "2026-11-21T19:49:56.589576Z",
+      "SubmissionsCount": 2,
+      "ReviewsCount": 1
+    },
+    {
+      "Id": "res-101-5",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "Title": "Montaje en LMS de Unidad 1 y Tarea con R\u00FAbrica en Moodle",
+      "Description": "Aula virtual configurada con libro digital, foro de debate y entrega de laboratorio con auto-calificador.",
+      "Type": "Montaje en Aula",
+      "Stage": "Montaje LMS",
+      "Status": "Integrado en LMS",
+      "CurrentVersion": "v1.0",
+      "AuthorId": "usr-lms",
+      "AssignedReviewerId": "usr-cal",
+      "LatestFileUrl": null,
+      "LatestExternalLink": "https://moodle.universidad.edu/course/view.php?id=301",
+      "CreatedAt": "2026-11-13T19:49:56.5895763Z",
+      "UpdatedAt": "2026-11-22T19:49:56.5895764Z",
+      "SubmissionsCount": 1,
+      "ReviewsCount": 1
+    },
+    {
+      "Id": "res-102-1",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "Title": "Lectura Fundamental: El Principio de Autonom\u00EDa en Pacientes Cr\u00EDticos",
+      "Description": "Texto acad\u00E9mico de 12 p\u00E1ginas con casos reales y marco legal latinoamericano.",
+      "Type": "Lectura/Texto",
+      "Stage": "Dise\u00F1o Instruccional",
+      "Status": "Requiere Ajustes",
+      "CurrentVersion": "v1.0",
+      "AuthorId": "usr-doc2",
+      "AssignedReviewerId": "usr-rev",
+      "LatestFileUrl": "/uploads/lectura_autonomia_v1.docx",
+      "LatestExternalLink": null,
+      "CreatedAt": "2026-11-05T19:49:56.5895783Z",
+      "UpdatedAt": "2026-11-20T19:49:56.5895784Z",
+      "SubmissionsCount": 1,
+      "ReviewsCount": 1
+    },
+    {
+      "Id": "res-102-2",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "Title": "Presentaci\u00F3n Interactiva: Marco Hist\u00F3rico del Juicio de N\u00FAremberg",
+      "Description": "Diapositivas interactivas con preguntas de autoevaluaci\u00F3n integradas.",
+      "Type": "Presentaci\u00F3n Interactiva",
+      "Stage": "Dise\u00F1o Instruccional",
+      "Status": "En Revisi\u00F3n",
+      "CurrentVersion": "v1.0",
+      "AuthorId": "usr-doc2",
+      "AssignedReviewerId": "usr-di",
+      "LatestFileUrl": null,
+      "LatestExternalLink": "https://canva.com/design/bioetica-nuremberg",
+      "CreatedAt": "2026-11-11T19:49:56.5895788Z",
+      "UpdatedAt": "2026-11-22T19:49:56.5895788Z",
+      "SubmissionsCount": 1,
+      "ReviewsCount": 0
+    }
+  ],
+  "Tasks": [
+    {
+      "Id": "tsk-101-1",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-1",
+      "Title": "Revisi\u00F3n y Ajuste Pedag\u00F3gico del S\u00EDlabo de IA",
+      "Description": "Verificar coherencia entre resultados de aprendizaje, criterios de evaluaci\u00F3n y cr\u00E9ditos acad\u00E9micos.",
+      "Stage": "Planeaci\u00F3n",
+      "RoleRequired": "revisor_pedagogico",
+      "AssignedUserId": "usr-rev",
+      "Priority": "Alta",
+      "Status": "Completada",
+      "DueDate": "2026-10-19T19:49:56.589911Z",
+      "CompletedAt": "2026-10-19T19:49:56.5899489Z",
+      "DependencyTaskIds": [],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-2",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-2",
+      "Title": "Redacci\u00F3n de Guion para Video de Redes Neuronales",
+      "Description": "Elaborar la narrativa conceptual, marcas de tiempo y ejemplos pr\u00E1cticos en Python.",
+      "Stage": "Dise\u00F1o Instruccional",
+      "RoleRequired": "docente",
+      "AssignedUserId": "usr-doc1",
+      "Priority": "Alta",
+      "Status": "Completada",
+      "DueDate": "2026-10-26T19:49:56.5900089Z",
+      "CompletedAt": "2026-10-28T19:49:56.590009Z",
+      "DependencyTaskIds": [
+        "tsk-101-1"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-3",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-2",
+      "Title": "Validaci\u00F3n Instruccional y Aprobaci\u00F3n del Guion",
+      "Description": "Revisar carga cognitiva, tono did\u00E1ctico y precisi\u00F3n metodol\u00F3gica del guion de video.",
+      "Stage": "Dise\u00F1o Instruccional",
+      "RoleRequired": "disenador_instruccional",
+      "AssignedUserId": "usr-di",
+      "Priority": "Alta",
+      "Status": "Completada",
+      "DueDate": "2026-10-30T19:49:56.5900106Z",
+      "CompletedAt": "2026-10-31T19:49:56.5900108Z",
+      "DependencyTaskIds": [
+        "tsk-101-2"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-4",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-3",
+      "Title": "Producci\u00F3n y Renderizado de C\u00E1psula de Video",
+      "Description": "Grabaci\u00F3n de locuci\u00F3n, animaci\u00F3n gr\u00E1fica de sinapsis y exportaci\u00F3n en formato web optimizado.",
+      "Stage": "Producci\u00F3n Multimedia",
+      "RoleRequired": "productor_multimedia",
+      "AssignedUserId": "usr-mult",
+      "Priority": "Media",
+      "Status": "Completada",
+      "DueDate": "2026-11-08T19:49:56.5900112Z",
+      "CompletedAt": "2026-11-09T19:49:56.5900112Z",
+      "DependencyTaskIds": [
+        "tsk-101-3"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-5",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-2",
+      "ResourceId": "res-101-4",
+      "Title": "Elaboraci\u00F3n de Infograf\u00EDa Interactiva sobre Transformers",
+      "Description": "Dise\u00F1o de la estructura visual interactiva en Genially/HTML5 a partir del contenido base.",
+      "Stage": "Producci\u00F3n Multimedia",
+      "RoleRequired": "productor_multimedia",
+      "AssignedUserId": "usr-mult",
+      "Priority": "Media",
+      "Status": "En Revisi\u00F3n",
+      "DueDate": "2026-11-25T19:49:56.5900115Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [
+        "tsk-101-3"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-6",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-5",
+      "Title": "Montaje T\u00E9cnico y Parametrizaci\u00F3n en LMS Moodle",
+      "Description": "Crear la estructura de la Unidad 1, enlazar recursos multimedia, configurar foros y libro de calificaciones.",
+      "Stage": "Montaje LMS",
+      "RoleRequired": "desarrollador_lms",
+      "AssignedUserId": "usr-lms",
+      "Priority": "Alta",
+      "Status": "Completada",
+      "DueDate": "2026-11-21T19:49:56.5900143Z",
+      "CompletedAt": "2026-11-22T19:49:56.5900143Z",
+      "DependencyTaskIds": [
+        "tsk-101-4"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-7",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-1",
+      "ResourceId": "res-101-5",
+      "Title": "Auditor\u00EDa de Calidad T\u00E9cnica y Accesibilidad Web (WCAG)",
+      "Description": "Verificar contraste, subtitulado de videos, enlaces externos, r\u00FAbricas y navegaci\u00F3n fluida en LMS.",
+      "Stage": "Control Calidad",
+      "RoleRequired": "auditor_calidad",
+      "AssignedUserId": "usr-cal",
+      "Priority": "Cr\u00EDtica",
+      "Status": "En Proceso",
+      "DueDate": "2026-11-27T19:49:56.5900147Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [
+        "tsk-101-6"
+      ],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-101-8",
+      "CourseId": "crs-101",
+      "UnitId": "unt-101-2",
+      "ResourceId": null,
+      "Title": "Certificaci\u00F3n Final y Publicaci\u00F3n del Curso",
+      "Description": "Emisi\u00F3n del acta de conformidad institucional y apertura del aula virtual para los estudiantes.",
+      "Stage": "Control Calidad",
+      "RoleRequired": "coordinador",
+      "AssignedUserId": "usr-coord",
+      "Priority": "Alta",
+      "Status": "Pendiente",
+      "DueDate": "2026-12-08T19:49:56.590015Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [
+        "tsk-101-7"
+      ],
+      "IsBlocked": true,
+      "BlockingReason": "Depende de: \u0027Auditor\u00EDa de Calidad T\u00E9cnica y Accesibilidad Web (WCAG)\u0027 (Estado actual: En Proceso)"
+    },
+    {
+      "Id": "tsk-102-1",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "ResourceId": "res-102-1",
+      "Title": "Redacci\u00F3n de Contenido Base: Principio de Autonom\u00EDa",
+      "Description": "Desarrollar el texto base con dilemas reales en cuidados intensivos y marco bio\u00E9tico latinoamericano.",
+      "Stage": "Dise\u00F1o Instruccional",
+      "RoleRequired": "docente",
+      "AssignedUserId": "usr-doc2",
+      "Priority": "Alta",
+      "Status": "Requiere Ajustes",
+      "DueDate": "2026-11-21T19:49:56.5900579Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-102-2",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "ResourceId": "res-102-1",
+      "Title": "Revisi\u00F3n Pedag\u00F3gica y de Citaci\u00F3n APA de la Lectura Base",
+      "Description": "Verificar coherencia metodol\u00F3gica, estilo pedag\u00F3gico y citaci\u00F3n adecuada de casos cl\u00EDnicos.",
+      "Stage": "Dise\u00F1o Instruccional",
+      "RoleRequired": "revisor_pedagogico",
+      "AssignedUserId": "usr-rev",
+      "Priority": "Alta",
+      "Status": "Completada",
+      "DueDate": "2026-11-20T19:49:56.5900593Z",
+      "CompletedAt": "2026-11-20T19:49:56.5900593Z",
+      "DependencyTaskIds": [
+        "tsk-102-1"
+      ],
+      "IsBlocked": true,
+      "BlockingReason": "Depende de: \u0027Redacci\u00F3n de Contenido Base: Principio de Autonom\u00EDa\u0027 (Estado actual: Requiere Ajustes)"
+    },
+    {
+      "Id": "tsk-102-3",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "ResourceId": "res-102-2",
+      "Title": "Dise\u00F1o de Presentaci\u00F3n Interactiva sobre Juicio de N\u00FAremberg",
+      "Description": "Crear recursos did\u00E1cticos interactivos con l\u00EDnea de tiempo y preguntas formativas.",
+      "Stage": "Dise\u00F1o Instruccional",
+      "RoleRequired": "disenador_instruccional",
+      "AssignedUserId": "usr-di",
+      "Priority": "Media",
+      "Status": "En Revisi\u00F3n",
+      "DueDate": "2026-11-24T19:49:56.5900597Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-102-4",
+      "CourseId": "crs-102",
+      "UnitId": "unt-102-1",
+      "ResourceId": null,
+      "Title": "Producci\u00F3n de Podcast Explicativo: Casos de Estudio en UCI",
+      "Description": "Grabaci\u00F3n de audio dramatizado y mezcla sonora de simulaci\u00F3n cl\u00EDnica.",
+      "Stage": "Producci\u00F3n Multimedia",
+      "RoleRequired": "productor_multimedia",
+      "AssignedUserId": "usr-mult",
+      "Priority": "Media",
+      "Status": "Pendiente",
+      "DueDate": "2026-12-01T19:49:56.5900599Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [
+        "tsk-102-1"
+      ],
+      "IsBlocked": true,
+      "BlockingReason": "Depende de: \u0027Redacci\u00F3n de Contenido Base: Principio de Autonom\u00EDa\u0027 (Estado actual: Requiere Ajustes)"
+    },
+    {
+      "Id": "tsk-106-1",
+      "CourseId": "crs-106",
+      "UnitId": "",
+      "ResourceId": null,
+      "Title": "Entrega y Consolidaci\u00F3n del S\u00EDlabo de Ciberseguridad",
+      "Description": "Entrega del documento maestro por parte del docente responsable.",
+      "Stage": "Planeaci\u00F3n",
+      "RoleRequired": "docente",
+      "AssignedUserId": "usr-doc1",
+      "Priority": "Alta",
+      "Status": "En Proceso",
+      "DueDate": "2026-11-17T19:49:56.5900602Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [],
+      "IsBlocked": false,
+      "BlockingReason": null
+    },
+    {
+      "Id": "tsk-106-2",
+      "CourseId": "crs-106",
+      "UnitId": "",
+      "ResourceId": null,
+      "Title": "Planificaci\u00F3n Instruccional y Cronograma de Grabaciones",
+      "Description": "Definir calendario de grabaciones y requerimientos de m\u00E1quinas virtuales para pr\u00E1cticas.",
+      "Stage": "Planeaci\u00F3n",
+      "RoleRequired": "disenador_instruccional",
+      "AssignedUserId": "usr-di",
+      "Priority": "Media",
+      "Status": "Pendiente",
+      "DueDate": "2026-11-20T19:49:56.5900621Z",
+      "CompletedAt": null,
+      "DependencyTaskIds": [
+        "tsk-106-1"
+      ],
+      "IsBlocked": true,
+      "BlockingReason": "Depende de: \u0027Entrega y Consolidaci\u00F3n del S\u00EDlabo de Ciberseguridad\u0027 (Estado actual: En Proceso)"
+    }
+  ],
+  "Submissions": [
+    {
+      "Id": "sub-101-1",
+      "CourseId": "crs-101",
+      "TaskId": "tsk-101-2",
+      "ResourceId": "res-101-2",
+      "SubmittedByUserId": "usr-doc1",
+      "Version": "v1.0",
+      "SubmittedAt": "2026-10-27T19:49:56.5902878Z",
+      "Notes": "Env\u00EDo el primer borrador del guion de video para revisi\u00F3n del equipo pedag\u00F3gico e instruccional.",
+      "FileUrl": "/uploads/guion_video_redes_v1.docx",
+      "FileName": "guion_video_redes_v1.docx",
+      "ExternalLink": "https://docs.google.com/document/d/guion-v1",
+      "Status": "Con Observaciones"
+    },
+    {
+      "Id": "sub-101-2",
+      "CourseId": "crs-101",
+      "TaskId": "tsk-101-2",
+      "ResourceId": "res-101-2",
+      "SubmittedByUserId": "usr-doc1",
+      "Version": "v2.0",
+      "SubmittedAt": "2026-10-29T19:49:56.590404Z",
+      "Notes": "Versi\u00F3n final ajustada. Se agregaron los ejemplos de c\u00F3digo y se simplificaron las f\u00F3rmulas matem\u00E1ticas.",
+      "FileUrl": "/uploads/guion_video_redes_neuronales_v2.docx",
+      "FileName": "guion_video_redes_neuronales_v2.docx",
+      "ExternalLink": "https://docs.google.com/document/d/guion-v2-aprobado",
+      "Status": "Aprobada"
+    },
+    {
+      "Id": "sub-102-1",
+      "CourseId": "crs-102",
+      "TaskId": "tsk-102-1",
+      "ResourceId": "res-102-1",
+      "SubmittedByUserId": "usr-doc2",
+      "Version": "v1.0",
+      "SubmittedAt": "2026-11-18T19:49:56.5904044Z",
+      "Notes": "Env\u00EDo el texto formativo sobre autonom\u00EDa del paciente y toma de decisiones cl\u00EDnicas.",
+      "FileUrl": "/uploads/lectura_autonomia_v1.docx",
+      "FileName": "lectura_autonomia_v1.docx",
+      "ExternalLink": null,
+      "Status": "Con Observaciones"
+    },
+    {
+      "Id": "sub-101-3",
+      "CourseId": "crs-101",
+      "TaskId": "tsk-101-5",
+      "ResourceId": "res-101-4",
+      "SubmittedByUserId": "usr-mult",
+      "Version": "v1.1",
+      "SubmittedAt": "2026-11-21T19:49:56.5904046Z",
+      "Notes": "Nueva versi\u00F3n interactiva de la infograf\u00EDa de Transformers con interactividad t\u00E1ctil y modo oscuro.",
+      "FileUrl": "/uploads/infografia_transformers.zip",
+      "FileName": "infografia_transformers.zip",
+      "ExternalLink": "https://genially.com/infografia-transformers-v11",
+      "Status": "En Revisi\u00F3n"
+    }
+  ],
+  "Reviews": [
+    {
+      "Id": "rev-101-1",
+      "CourseId": "crs-101",
+      "TaskId": "tsk-101-2",
+      "ResourceId": "res-101-2",
+      "SubmissionId": "sub-101-1",
+      "ReviewerUserId": "usr-rev",
+      "ReviewerRole": "revisor_pedagogico",
+      "Decision": "Requiere Ajustes",
+      "Feedback": "El tema est\u00E1 excelentemente planteado, pero la densidad matem\u00E1tica en la secci\u00F3n 2 puede desmotivar a los estudiantes. Se recomienda a\u00F1adir una analog\u00EDa visual antes de la f\u00F3rmula de Backpropagation.",
+      "Checklist": [
+        {
+          "Item": "Alineaci\u00F3n con los resultados de aprendizaje del s\u00EDlabo",
+          "Passed": true,
+          "Notes": "Cumple con el objetivo 1.1"
+        },
+        {
+          "Item": "Adecuaci\u00F3n del lenguaje al perfil del estudiante",
+          "Passed": false,
+          "Notes": "Demasiado denso en la mitad del guion"
+        },
+        {
+          "Item": "Claridad en las instrucciones para el equipo multimedia",
+          "Passed": true,
+          "Notes": "Especificaciones de audio y video claras"
+        },
+        {
+          "Item": "Normas \u00E9ticas y citas de fuentes bibliogr\u00E1ficas",
+          "Passed": true,
+          "Notes": "Fuentes acad\u00E9micas IEEE v\u00E1lidas"
+        }
+      ],
+      "ReviewedAt": "2026-10-28T19:49:56.5908103Z"
+    },
+    {
+      "Id": "rev-101-2",
+      "CourseId": "crs-101",
+      "TaskId": "tsk-101-3",
+      "ResourceId": "res-101-2",
+      "SubmissionId": "sub-101-2",
+      "ReviewerUserId": "usr-di",
+      "ReviewerRole": "disenador_instruccional",
+      "Decision": "Aprobado",
+      "Feedback": "\u00A1Excelente ajuste! La incorporaci\u00F3n de la analog\u00EDa con el sem\u00E1foro y la s\u00EDntesis en Python qued\u00F3 perfecta para producci\u00F3n multimedia.",
+      "Checklist": [
+        {
+          "Item": "Alineaci\u00F3n con los resultados de aprendizaje del s\u00EDlabo",
+          "Passed": true,
+          "Notes": ""
+        },
+        {
+          "Item": "Adecuaci\u00F3n del lenguaje al perfil del estudiante",
+          "Passed": true,
+          "Notes": ""
+        },
+        {
+          "Item": "Claridad en las instrucciones para el equipo multimedia",
+          "Passed": true,
+          "Notes": ""
+        },
+        {
+          "Item": "Normas \u00E9ticas y citas de fuentes bibliogr\u00E1ficas",
+          "Passed": true,
+          "Notes": ""
+        }
+      ],
+      "ReviewedAt": "2026-10-31T19:49:56.5908332Z"
+    },
+    {
+      "Id": "rev-102-1",
+      "CourseId": "crs-102",
+      "TaskId": "tsk-102-1",
+      "ResourceId": "res-102-1",
+      "SubmissionId": "sub-102-1",
+      "ReviewerUserId": "usr-rev",
+      "ReviewerRole": "revisor_pedagogico",
+      "Decision": "Requiere Ajustes",
+      "Feedback": "El marco conceptual es s\u00F3lido; no obstante, faltan las referencias en formato APA 7ma edici\u00F3n en las p\u00E1ginas 4 y 7, y se deben anonimizar los datos de los casos cl\u00EDnicos de acuerdo con la Ley de Protecci\u00F3n de Datos en Salud.",
+      "Checklist": [
+        {
+          "Item": "Rigor conceptual y fundamentaci\u00F3n te\u00F3rica",
+          "Passed": true,
+          "Notes": ""
+        },
+        {
+          "Item": "Anonimizaci\u00F3n y bio\u00E9tica en casos cl\u00EDnicos presentados",
+          "Passed": false,
+          "Notes": "Revisar caso #2 en p\u00E1g. 5"
+        },
+        {
+          "Item": "Normas de citaci\u00F3n APA 7ma edici\u00F3n",
+          "Passed": false,
+          "Notes": "Faltan DOI y fechas de recuperaci\u00F3n"
+        },
+        {
+          "Item": "Inclusi\u00F3n de preguntas de reflexi\u00F3n para el estudiante",
+          "Passed": true,
+          "Notes": ""
+        }
+      ],
+      "ReviewedAt": "2026-11-20T19:49:56.5908337Z"
+    }
+  ],
+  "ActivityLogs": [
+    {
+      "Id": "act-1",
+      "CourseId": "crs-101",
+      "UserId": "usr-lms",
+      "Action": "INTEGRACION_LMS",
+      "Description": "Montaje completado de la Unidad 1 en el aula virtual Moodle con libro interactivo y foro.",
+      "Timestamp": "2026-11-22T19:49:56.5910016Z"
+    },
+    {
+      "Id": "act-2",
+      "CourseId": "crs-101",
+      "UserId": "usr-mult",
+      "Action": "ENTREGA_RECURSO",
+      "Description": "Entrega de nueva versi\u00F3n v1.1 de la infograf\u00EDa interactiva de Transformers.",
+      "Timestamp": "2026-11-21T19:49:56.5910236Z"
+    },
+    {
+      "Id": "act-3",
+      "CourseId": "crs-102",
+      "UserId": "usr-rev",
+      "Action": "OBSERVACION_REGISTRADA",
+      "Description": "Revisi\u00F3n pedag\u00F3gica emiti\u00F3 dictamen \u0027Requiere Ajustes\u0027 en la lectura sobre Principio de Autonom\u00EDa.",
+      "Timestamp": "2026-11-20T19:49:56.5910238Z"
+    },
+    {
+      "Id": "act-4",
+      "CourseId": "crs-102",
+      "UserId": "usr-doc2",
+      "Action": "ENTREGA_RECURSO",
+      "Description": "Docente entreg\u00F3 versi\u00F3n v1.0 de la lectura sobre Principio de Autonom\u00EDa.",
+      "Timestamp": "2026-11-18T19:49:56.591024Z"
+    },
+    {
+      "Id": "act-5",
+      "CourseId": "crs-101",
+      "UserId": "usr-di",
+      "Action": "APROBACION",
+      "Description": "Dise\u00F1o Instruccional aprob\u00F3 formalmente el Guion de Video de Redes Neuronales v2.0.",
+      "Timestamp": "2026-10-31T19:49:56.5910241Z"
+    },
+    {
+      "Id": "act-6",
+      "CourseId": "crs-101",
+      "UserId": "usr-doc1",
+      "Action": "ENTREGA_RECURSO",
+      "Description": "Docente carg\u00F3 la versi\u00F3n ajustada v2.0 del guion t\u00E9cnico de video.",
+      "Timestamp": "2026-10-29T19:49:56.5910245Z"
+    },
+    {
+      "Id": "act-7",
+      "CourseId": "crs-105",
+      "UserId": "usr-cal",
+      "Action": "CERTIFICACION",
+      "Description": "Auditor\u00EDa de Calidad certific\u00F3 el 100% de los est\u00E1ndares del curso Metodolog\u00EDa de la Investigaci\u00F3n.",
+      "Timestamp": "2026-11-15T19:49:56.5910247Z"
+    }
+  ]
+}

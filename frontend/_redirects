@@ -1,0 +1,7 @@
+# Cloudflare Pages SPA Routing
+# Redirige todas las rutas hacia index.html con código 200 para permitir el enrutamiento del lado del cliente (React)
+/*    /index.html   200
+
+# Opcional: Si despliegas el backend Python en Render / Railway / Fly.io,
+# puedes descomentar la siguiente línea para que Cloudflare funcione como proxy inverso transparente sin CORS:
+# /api/*  https://TU-BACKEND-PYTHON.onrender.com/api/:splat  200

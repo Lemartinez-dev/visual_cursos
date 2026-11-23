@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-50">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualizaCore (React + Python MVC) | Gestión de Virtualización Académica</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- React 18 & ReactDOM CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel Standalone for JSX compilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Configuración opcional de API URL para despliegue desacoplado (Cloudflare Pages) -->
+    <script>
+        // Si el backend Python corre en un host externo (Render, Railway, Fly.io), defina la URL base aquí:
+        // window.__API_BASE__ = 'https://mi-backend-python.onrender.com/api';
+    </script>
+</head>
+<body class="h-full flex flex-col font-sans text-slate-800 antialiased selection:bg-blue-200">
+    <!-- React Root Container -->
+    <div id="root" class="h-full flex flex-col"></div>
+
+    <!-- React Application Entry Point -->
+    <script type="text/babel" src="/app.jsx"></script>
+</body>
+</html>
